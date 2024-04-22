@@ -56,3 +56,20 @@ Vamos a settings.py para registrar nuestra aplicacion
     ==> return render(request, 'ProyectoWebApp/home.html') ('Home')
 
 
+
+
+# Video IV
+1.  Apliacar formato a nuestro sitio web con BOOTSTRAP
+2. Creacion de plantillas (Templates)
+3. Herencias de plantillas y estrucutras del sitio
+
+BOOTSTRAP : Es un framework CSS creado po Twitter n 2011
+-> Es compatible con todos los dispositivos
+-> Se utiliza mucho en CMS y WordPress
+
+
+1. Crear una carpeta : STATIC  dentro crear una carpeta del proyecto : ProyectoWebApp
+
+
+Tenemos que crear una plantilla base.
+
