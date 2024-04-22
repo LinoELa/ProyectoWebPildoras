@@ -75,6 +75,9 @@ Tenemos que crear una plantilla base.
 
 
 # Video V 
+
+--> No hace falta incluir <!DOCTYPE html> 
+
 1.  Creamos las plantillas 
 
 a. tenemos que cargar los conntenidos de la carpeta STATIC
@@ -99,4 +102,22 @@ Hemos usado home par que tengo  herede del padre
 --> Home.html esta usado herencia de plantillas.
 
 --> Hacer lo mismo las demas pero desde la base.html
+
+Antes : 
+      <a class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none" href="home.html">Gestión de Pedidos</a>
+
+Despues o Ahora : sin .html
+      <a class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none" href="{% url 'Home' %}">Gestión de Pedidos</a>
+
+Asi con todas las demas url de base
+
+--> Tengo que ponerlo con la primera letra en mayuscula como en el archivo URLs.py de ProyectoWebApp
+
+    path('', views.home, name='Home'),
+
+    path('servicios', views.servicios, name='Servicios'),
+
+
+
+==> 
 
