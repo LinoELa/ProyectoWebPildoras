@@ -73,3 +73,30 @@ BOOTSTRAP : Es un framework CSS creado po Twitter n 2011
 
 Tenemos que crear una plantilla base.
 
+
+# Video V 
+1.  Creamos las plantillas 
+
+a. tenemos que cargar los conntenidos de la carpeta STATIC
+
+--> ENTENDER BIEN LOS ESTILOS DE BOOTSTRAP <-- 
+
+-> despues de cargarlo todo para que funcione tengo que parar  el servidor y luego ponerlomas en marcha
+
+-> En la pagina de css/gestion.css estan los estilos de la pagina home.
+
+
+2.  HERENCIAS 
+
+copiar la plantilla home.html y usarla como la plantilla padre.
+
+
+Hemos usado home par que tengo  herede del padre 
+
+-> {% extends "ProyectoWebApp/base.html" %}
+        Tiene que ir arriba de todo, lo primero es como un import 
+
+--> Home.html esta usado herencia de plantillas.
+
+--> Hacer lo mismo las demas pero desde la base.html
+
