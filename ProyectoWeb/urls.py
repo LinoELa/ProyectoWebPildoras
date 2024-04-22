@@ -1,3 +1,5 @@
+#Esta URL es para todas del proyecto
+
 """
 URL configuration for ProyectoWeb project.
 
@@ -15,8 +17,12 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path
+from django.urls import path, include
+
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    # path('ProyectoWebApp', include('ProyectoWebApp.urls'))
+    path('', include('ProyectoWebApp.urls')), # Mejor forma
+
 ]
