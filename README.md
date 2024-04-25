@@ -137,3 +137,28 @@ Asi con todas las demas url de base
 
 
 Una app independiende 
+
+
+1.  Creamos la app 
+==> python manage.py startapp servicios
+
+2. Registramos la app creado en nuestro archivo setting.py del proyecto generar que ser seria en (proyectoWeb - setting.py)
+
+INSTALLED_APPS = [
+    'django.contrib.admin',
+    'django.contrib.auth',
+    'django.contrib.contenttypes',
+    'django.contrib.sessions',
+    'django.contrib.messages',
+    'django.contrib.staticfiles',
+    'ProyectoWebApp',
+    'servicios',
+]
+
+
+Django utiliza un mapeo ORM a la hora de utilizar las tablas 
+
+--> Es utilizar la POO para manejar tablas y objetos que vendrian siendo tablas.
+
+
+hemos usado models.py en casi todo 
