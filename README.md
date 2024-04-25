@@ -121,3 +121,9 @@ Asi con todas las demas url de base
 
 ==> 
 
+# VIDEO VI
+-> COMPLETAR EL RESTO DE LAS PAGINAS CON LA HERENCIA DE PLANTILLAS
+
+--> Hemos completado el header y footer y han tenido una herencia de base.html
+-> Hemos puesto que se ilummina el menu en la seccion que nos encontramos en este momento 
+
