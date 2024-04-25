@@ -127,3 +127,13 @@ Asi con todas las demas url de base
 --> Hemos completado el header y footer y han tenido una herencia de base.html
 -> Hemos puesto que se ilummina el menu en la seccion que nos encontramos en este momento 
 
+
+
+# VIDEO VII
+
+. VAMOS A CREAR UNA APP INDEPENDIENDE PARA LA ZONA DE SERVICIOS 
+. La primera app (ProyectoWeb) hera como para poner las bases del proyecto ( es una parte del puzle )
+
+
+
+Una app independiende 
