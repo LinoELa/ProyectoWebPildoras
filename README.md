@@ -162,3 +162,22 @@ Django utiliza un mapeo ORM a la hora de utilizar las tablas
 
 
 hemos usado models.py en casi todo 
+
+# VIDEO VIII : ADMINISTRACCION
+
+REGISTRAR LA APP EN EL PANEL DE ADMINISTRACION
+
+1. Creamos el superusuario del panel de administracion con : 
+        ==> python manage.py createsuperuser
+2. Completamos la informacion : En este caso he puesto :
+    --> ela123
+    -->jamelarry22@gmail.com
+    --> 123456789
+
+3.  Para cambiar el ( idioma )  del panel de administracion 
+    --> https://youtu.be/J5yKhrmMITQ?si=ggrCZ41zf7SMNCuF&t=552
+
+
+# VIDEO IX : 
+MOSTRAR IMAGENES 
+
