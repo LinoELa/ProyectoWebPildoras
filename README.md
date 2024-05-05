@@ -207,3 +207,9 @@ Al tener varias aplicaciones dentro de un proyecto pues se  tiene que crear SUBC
 
 --> Registrar y Configuracion de la URL 
 para que vaya a buscar la imagen alli. 
+
+# VIDEO X
+
+COMO MOSTRAR LOS SERVICIOS 
+
+En views se cambia las cosas 

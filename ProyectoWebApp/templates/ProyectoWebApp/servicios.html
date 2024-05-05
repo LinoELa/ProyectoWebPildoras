@@ -4,6 +4,9 @@
 {% load static  %}
 
 {% block content %} {%comment %} Abrimos el block a heredar {%endcomment%}
+
+    {% for Servicios in servicios  %}
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -14,12 +17,21 @@
 
     
     <h1 style='color: white;'>---------------</h1>
-    <h1 style='color:white;'>Contenidoo medio</h1>
+    {% comment %} <h1 style='color:white;'>Contenidoo medio</h1> {% endcomment %}
+    <h2 style = 'color:white'>{{Servicios.titulo}}</h2>
+    <h2 style = 'color:white'>{{Servicios.contenido}}</h2>
+
+    {% comment %} IMAGEN AHORA {% endcomment %}
+    <P><img src = '{{Servicios.imagen.url}}'><P>
+
+
+
     <h1 style='color: white;'>---------------</h1>
 
-    
 </body>
 </html>
+
+    {% endfor %}
 
 
 
