@@ -181,3 +181,29 @@ REGISTRAR LA APP EN EL PANEL DE ADMINISTRACION
 # VIDEO IX : 
 MOSTRAR IMAGENES 
 
+vamos a ver como mostrar las imagenes. 
+
+Mientras contruimos nuestro proyecto en local : settings.py de nuestro proyecto tiene que ser 
+==> DEBUG = TRUE 
+
+al subirlo tiene que ser 
+==> DEBUG = False
+
+
+Vamos a ordenar nuestro proyecto 
+
+--> Crearmos una nueva carpeta : MEDIA y dentro de decimos a Django que nos busque la foto dentro
+
+--> Decirle a Django que busque los archivos en la carpeta media que acabamos de crear 
+
+==> # Decir a Django que busque la carpeta
+MEDIA_URL = '/Media'
+MEDIA_ROOT =  BASE_DIR / 'Media'
+
+Al tener varias aplicaciones dentro de un proyecto pues se  tiene que crear SUBCARPETA para organizarlo mejor
+
+==> el models.py poner : 
+    imagen = models.ImageField(upload_to='servicios') #instalar : -> "python -m pip install Pillow". <-
+
+--> Registrar y Configuracion de la URL 
+para que vaya a buscar la imagen alli. 
